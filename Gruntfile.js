@@ -23,7 +23,8 @@ module.exports = function (grunt) {
         less: {
             dist: {
                 files: {
-                    'public/dist/css/style.css': 'public/less/style.less'
+                    'public/dist/css/style.css': 'public/less/style.less',
+                    'public/dist/css/github-markdown.css': 'public/less/github-markdown.less'
                 }
             }
         },
@@ -74,6 +75,7 @@ module.exports = function (grunt) {
                     }
                 ],
                 options: {
+                    template: 'views/mdTemplate.html',
                     preCompile: function (src, context) {
                         //var reg = /\!\[.*\]\(\w*.png\)/ig;
                         var reg = /\!\[.*\]\(\w*(.png|.jpg|.jpeg|.gif)\)/ig;
@@ -83,6 +85,9 @@ module.exports = function (grunt) {
                             return parsedPath;
                         });
                         return newSrc;
+                    },
+                    markdownOptions: {
+                        gfm: true
                     }
                 }
             }
