@@ -8,19 +8,19 @@
 
 在页面上方的搜索栏内输入部分或全部发票编号，可快速搜索相关发票。
 
-![Figure-1](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/终端消费者/consumer mainpage.png)
+![Figure-1](consumer_mainpage.png)
 
 ### 查看发票列表
 
 点击我的电子发票页面右上角的**筛选**，打开筛选窗口，可查看指定的电子发票：
 
-![Figure-2](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/终端消费者/consumer list filter.png)
+![Figure-2](consumer_list_filter.png)
 
 ### 单张发票操作
 
 点击想要查看的发票对应的**更多**下拉箭头，打开更多选项窗口：
 
-![Figure-3](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/终端消费者/consumer more options.png)
+![Figure-3](consumer_more_options.png)
 
 您可以对单张发票进行如下操作：
 
@@ -33,11 +33,11 @@
 
   点击左侧**单张发票查验**标签打开发票查验窗口，可输入发票代码、发票号码、开票日期和发票金额来查收通过E发票平台发送的电子发票版式文件。
 
-  ![Figure-4](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/终端消费者/invoice check.png)
+  ![Figure-4](consumer_invoice_check_page.png)
 
   ## 绑定账号
 
   消费者用户可设置个人资料，登录信息等。点击左侧**帐号设置**标签，打开帐号设置页面，如下图所示。
 
-  如果用户有多个邮箱或手机号码，可以通过添加关联账号来绑定多个账号，集中管理发票信息。点击页面下方的**添加关联账号**，即可添加邮箱地址或手机号码为关联账号。  ![Figure-5](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/终端消费者/consumer settings.png)
+  如果用户有多个邮箱或手机号码，可以通过添加关联账号来绑定多个账号，集中管理发票信息。点击页面下方的**添加关联账号**，即可添加邮箱地址或手机号码为关联账号。  ![Figure-5](consumer_settings.png)
 

@@ -20,7 +20,7 @@ E发票平台是国家税务总局指定的电子发票平台，其解决方案�
 
 当交易发生后，相关税务信息通过税控装置进入电子底账库，完成电子发票涉税工作和结构化信息存档。同时，发票信息会发送到电子发票服务平台，形成PDF版式文件的电子发票，被推送给受票方。受票方或消费者可通过采购时提供的手机号码或电子邮箱地址，收取并管理电子发票。
 
-![Figure-1](/Users/xuyuan/Documents/DocumentCenter/documents/产品白皮书/E发票平台工作流程.png)
+![Figure-1](efapiao_work_process.png)
 
 ## 系统架构
 
@@ -28,7 +28,7 @@ E发票平台是国家税务总局指定的电子发票平台，其解决方案�
 
 当用户通过互联网发出一个开票请求时，该请求先到达核心业务系统，核心业务系统再通过特定方法与电子发票系统的前置服务域进行数据交互，前置服务域从税控服务器获得电子签章等信息，并发送数据至后台生成可读的版式文件，同时税控服务器将数据发送到各地税务系统存档。
 
-![Figure-2](/Users/xuyuan/Documents/DocumentCenter/documents/产品白皮书/系统架构.png)
+![Figure-2](system_architecture.png)
 
 ## 解决方案
 
@@ -81,7 +81,7 @@ E发票为开票方企业提供以下几种解决方案，您可以根据实际�
 
 无论注册与否，您都可以在E发票网站首页通过输入发票四要素，来查询单张发票是否合法有效，如下图所示。E发票平台支持查询查验任意平台开具的电子或纸质增值税普通发票。
 
-![Figure-3](/Users/xuyuan/Documents/DocumentCenter/documents/产品白皮书/手机扫码查验.png)
+![Figure-3](qr_code_scan_on_cellphone.png)
 
 #### 多张发票查验查重
 
@@ -91,7 +91,7 @@ E发票为开票方企业提供以下几种解决方案，您可以根据实际�
 
 E发票还支持扫二维码查询查验发票。您可以在“E发票”APP扫发票的二维码来查验发票的有效性：
 
-![Figure-4](/Users/xuyuan/Documents/DocumentCenter/documents/产品白皮书/查询页面.png)
+![Figure-4](invoice_check_entrance.png)
 
 您还可以通过在E发票平台网页端批量导入多张发票二维码图片进行查验，E发票会显示一个发票列表，包含每张发票的详细信息及是否合法有效等。
 
@@ -99,7 +99,7 @@ E发票还支持扫二维码查询查验发票。您可以在“E发票”APP扫
 
 E发票提供代申请电子发票服务。您需要准备相关材料，并在[www.efapiao.com](http://www.efapiao.com)提交申请，即可开始电子发票申请流程，并查看实时进展状态，流程如下图所示。
 
-![Figure-4](/Users/xuyuan/Documents/DocumentCenter/documents/产品白皮书/workorder system process.png)
+![Figure-4](workorder_system_process.png)
 
 ### 查看及下载发票
 
@@ -129,4 +129,4 @@ E发票提供代申请电子发票服务。您需要准备相关材料，并在[
 
 ### 与企业内部系统对接
 
-E发票提供API与企业内部系统进行对接，来实现单张发票的开具、版式文件查询下载、获取版式文件短链接，以及单张或多张发票查验的功能。详细接口信息请参考[接口说明](#接口说明)。
+E发票提供API与企业内部系统进行对接，来实现单张发票的开具、版式文件查询下载、获取版式文件短链接，以及单张或多张发票查验的功能。详细接口信息请参考[接口说明](/documents/接口说明)。

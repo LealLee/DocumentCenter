@@ -6,13 +6,13 @@
 
 使用公司管理员帐号登录平台后，默认显示最近一周的发票，如下图所示。在页面上方搜索栏输入发票编号的全部或部分，可快速搜索最近的相关发票。
 
-![Figure-1](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/公司管理员/company admin mainpage.png)
+![Figure-1](company_admin_mainpage.png)
 
 ## 查看发票列表
 
 在默认页面上，点击**筛选**打开筛选窗口：
 
-![Figure-2](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/公司管理员/company list filter.png)
+![Figure-2](company_list_filter.png)
 
 ### 查看所有发票
 
@@ -34,7 +34,7 @@
 
 点击想要查看的发票对应的**更多**下拉箭头，打开更多选项窗口：
 
-![Figure-3](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/公司管理员/company admin more options.png)
+![Figure-3](company_admin_more_options.png)
 
 您可以对单张发票进行如下操作：
 
@@ -46,17 +46,17 @@
 点击左侧**发票统计**标签，即可查看发票总数及金额等。默认显示所有历史发票的统计数据，如下图所示。
 点击**按年份统计**，可显示指定年份的发票统计数据。
 
-![Figure-4](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/公司管理员/发票统计.png)
+![Figure-4](company_fapiao_statistics.png)
 
 ## 查看子公司列表
 
 点击左侧子公司列表标签，即可查看当前公司的所有子公司，如下图所示。点击子公司右侧的图标，可查看子公司详细信息。
 
-![Figure-5](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/公司管理员/child list.png)
+![Figure-5](child_list.png)
 
 ## 查看短信统计数据
 
 点击左侧**短信统计**标签，即可查看公司每月发送的发票短信通知总数。默认显示最近6个月短信统计数据，如下图所示。
 点击页面右上角的**按月份筛选**按钮，可显示特定时间段内发送的短信通知总数。
 
-![Figure-6](/Users/xuyuan/Documents/DocumentCenter/documents/使用指南/公司管理员/SMS.png)
+![Figure-6](SMS_statistics.png)
